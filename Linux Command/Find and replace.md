@@ -1,0 +1,1 @@
+1. sed = short form for Stream Editor syntax for it is = sed (s stands for search) s/word to find/word to replace/g ( g stands for globally we can also write 1,2 according to the occurrence) location > newfile
