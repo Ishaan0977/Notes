@@ -1,0 +1,6 @@
+- For finding the users command is nmap --script smb-enum-users IP address
+- ==Relative identifier (rid) for windows is :==
+- Local administrator = rid 500
+- standard user = rid 1000
+- guest user = rid 501
+- We can also use the tool [[enum4linux]] tool

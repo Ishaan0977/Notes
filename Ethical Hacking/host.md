@@ -1,0 +1,2 @@
+- To see name server =  host -t ns website name
+- for zone transfer = host -l name server 

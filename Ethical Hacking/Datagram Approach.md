@@ -17,3 +17,9 @@
 	- More flexible.
 	- Packets between two hosts may follow different paths.
 		- ==Can handle congestion/failed link sometimes==.
+
+# Datagram Packet Switching
+- ### No initial delay.
+- ### The packets are send out independently.
+	- May follow different paths
+	- Also follows store-and-forward approach.

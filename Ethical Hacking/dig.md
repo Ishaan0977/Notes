@@ -1,0 +1,3 @@
+- To get mail servers = dig website name -t mx
+- To get name servers = dig website name -t ns
+- for zone transfer = dig axfr website name @ name server

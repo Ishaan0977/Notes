@@ -1,0 +1,4 @@
+- It do not establish complete connection (half-open scanning)
+- SYN/ACK is received = the port is listening , immediately terminates connection by send RST(reset) packet.
+- RST/ACK is received = The port is NON-Listening
+- -Ps option is used 

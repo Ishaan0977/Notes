@@ -1,0 +1,8 @@
+- Command for using crunch is crunch min max (if any specified character)
+- we can use crunch min max -t and options such as 
+- , for All upper case
+- @ for lower case
+- % for numbers
+- ^ for special characters
+- Crunch -p means no reptation for the specified characters
+- To save into a file use > and then file name 

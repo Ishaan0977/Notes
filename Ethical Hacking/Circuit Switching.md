@@ -3,6 +3,7 @@
 - ### A ==dedicated communication== path is established between two stations.
 	- The path follows a ==fixed sequence of intermediate links==.
 	- A logical channel gets dedicated on each physical link for connection.
+- ### After initial circuit establishment , data bits sent continuously without any delay.
 
 ![[Screenshot (53) 1.png]]
 

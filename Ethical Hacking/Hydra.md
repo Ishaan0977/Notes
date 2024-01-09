@@ -1,0 +1,4 @@
+- command is hydra -L ( for username ) file -P (for password) file IP service used (like ssh,telnet)
+- By ==default hydra parallel task is 16==
+- for parallel task -t command is used
+- in gui hydra we can create file list as min:max:speicified characters

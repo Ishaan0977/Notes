@@ -1,0 +1,7 @@
+- we will use ==rpcclient==
+- command rpcclient -U (username) target IP
+- to check number of users command is querydominfo or enumdomusers
+- to find the path of the user command is queryuser username
+- for uploading files = put filename
+- for downloading files = get filename
+- for deleting = delete filename

@@ -1,0 +1,3 @@
+- TCP sweep is also used by default port scanning option
+- -PS for TCP SYN sweep
+- -PA for TCP ACK sweep and this will receive RST (reset) packet

@@ -1,0 +1,7 @@
+- If ==no== ICMP port unreachable message is received means target is ==alive==
+- If ICMP port unreachable message is received means target is ==down==
+- To perform UDP sweep -PU option is used
+- Routers can drop UDP packets as they cross the internet
+- Many UDP services do not respond
+- Firewalls typically drop UDP packets except DNS
+- Not very reliable

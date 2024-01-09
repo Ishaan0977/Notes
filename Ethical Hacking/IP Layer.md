@@ -1,0 +1,52 @@
+# IP Layer
+- ### IP layer provide a connectionless , unreliable delivery system for packets.
+- ### Each packet is independent of one another
+	- IP layer need not maintain any history.
+	- Each IP packet must contain source and destination addresses.
+	- IP layer does not guarantee delivery of packets.
+- ### IP layer encapsulation 
+	- Receives a data chunk from higher layer (TCP or UDP).
+	- Prepends a header of minimum 20 bytes.
+		- Containing relevant information for handling routing and flow control.
+# IP header fields
+- ### VER (4 bits)
+	- Version of the IP protocol in use (typically 4).
+- ### HLEN (4 bits)
+	- Length of the header , expressed as the number of 32-bit words.
+	- Minimum size is 5 and maximum is 15.
+- ### Total length (16 bits)
+	- Length in bytes of the datagram , including headers.
+	- Maximum datagram size :: 2^16 = 65536 bytes.
+- ### Service type (8 bits)
+	- Allows packet to be assigned a priority.
+	- Router can use this field to route packets.
+- ### Time to live (8 bits)
+	- Prevents a packet from travelling in a loop.
+	- Senders sets a value, that is decremented at each hop , if it reaches zero , packet is discarded.
+- ### Protocol (8 bits)
+	- Identifies the higher layer protocol being used.
+- ### Source IP Addresses (32 bits)
+	- Internet address of the sender.
+- ### Destination IP Addresses (32 bits)
+	- Internet addresses of the destination.
+- ### Identification , Flags , Fragment offset
+	- Used for handling fragmentation.
+- ### Options (variable width)
+	- Can be given provided router supports.
+	- Source routing.
+- ### Header Checksum
+	- Covers only the IP header.
+	- How computed ?
+		- Header treated as a sequence of 16 bits integers.
+		- The integers are all added using ones as the checksum.
+		- Ones complement of the final sum is taken as the checksum.
+	- A mismatch in checksum causes the datagram to be discarded.
+
+# Viewing IP Packets
+- ### We can use ==packet sniffers== to view IP packets.
+- ### Some popular packet sniffets :-
+	- Wireshark
+	- Windump
+	- Tcpdumb
+	- Tshark
+	- Solarwinds

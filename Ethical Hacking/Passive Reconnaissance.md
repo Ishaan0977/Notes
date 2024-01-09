@@ -1,0 +1,28 @@
+- ### Archive.org
+	- In archive.org website we can get complete history of any website like when it was last updated.
+	- We can go back to the particular date and observe the webpage.
+	- We can mirror the website which will load all the files locally , such as HTML codes , images etc. that can be used to observe the directories used.
+- ### WHOIS
+	- WHOIS database lookup allows us to access many useful information about the target such as :
+		- Registration details
+		- IP address
+		- Contact number and email id
+		- domain owners
+		-  Name servers
+		- Regional Internet registries
+- ### Netcraft
+	- Netcraft is an internet service company.
+	- Through it we can find list of subdomains and operating system of the corresponding servers
+	- this can be useful while exploiting the system
+- ### Search engine and Operator
+	- Using search engine we can extract infromation such as platform used by organization , employee details, login pages by using various filters to restrict the search.
+	- We can also extract some information from search engine cache and internet archives
+
+### ==Useful search operators==
+- **site:** we can get result from specific website.
+- **cache:** we can find the most recent cache of specified webpage.
+- **intittle:** This a narrower operator that can help us find more targeted results for specific search phrases.
+- **inurl :** Finds pages on a site that has targeted search term in the URL.
+- **filetype :** Finds files that only fall under a specific file type.
+- **@:** If we want the search to be restricted to only social media , then we use @ before the search key.
+- **Quotes(""):** Will help to get exact match result.

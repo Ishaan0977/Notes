@@ -1,0 +1,1 @@
+- To list all the users command is enum4linux -U ip

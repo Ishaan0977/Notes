@@ -1,0 +1,8 @@
+- ### Hypervisor or virtual machine monitor.
+	- ==Hypervisor== is a software that creates and runs virtual machine(VM's).
+	- It allows one host computer to support multiple guest VM's
+		- by virtually sharing its resources , memory, network interface, storage and processing.
+	- Well known hypervisor softwares are : VMware , Virtual box.
+- ### Kali Linux
+	- Kali linux is an open source , Debian-Based linux distrubution.
+	- It contains thousands of tools that can be used for penetration testing , security research, computer forensics and reverse and engineering.

@@ -15,3 +15,9 @@
 	- Created during route establishment.
 	- used for packet forwarding.
 - No dynamic routing decision is taken by the intermediate route.
+
+# Virtual Circuit packet switching
+- The ==Call request packet== sent from source to destination.
+- The ==Call accept packet== returns back.
+- Packets sent sequentially in a pipelined fashion.
+	- Store-and-Forward approach.

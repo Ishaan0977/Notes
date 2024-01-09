@@ -1,0 +1,2 @@
+- Most routes block this
+- Windows ignore these requests
