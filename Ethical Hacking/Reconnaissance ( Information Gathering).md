@@ -21,7 +21,7 @@ b. Active Reconnaissance
 	- we can collect information using archive.org , Whois , netcraft and harvester tools.
 	- we can also use search engine and search operators available in search engine.
 
-### [[Active Reconnaissance]](D:\Github\Notes\Notes\Ethical Hacking\Active Reconnaissance)
+### [[Active Reconnaissance]]
 - In this type of information gathering we collect information directly by communicating with victim system
 	- can provide more detailed information about the target machine  . but as we directly communicating with the target machine there is also risk of detection.
 	- can be carried out using network mapper ([[NMAP]]), Nessus , metasploit framework etc.
