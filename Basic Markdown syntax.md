@@ -12,7 +12,7 @@
 | code                 | ` code `                                 |
 | Horizontal rule/line | ---                                      |
 | Fenced code block    | ```c {}```                               |
-| Highlight            | ==Hello World==                          |
+| Highlight            | <mark>Hello World</mark>                 |
 | Task List            | - [x] Test123 - [] hello world - [] test |
 | Emoji                | This is so funny :laugh:                 |
 | strike through       | ~~No~~                                   |
